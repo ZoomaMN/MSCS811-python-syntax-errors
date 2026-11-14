@@ -1,0 +1,14 @@
+{
+  "set": "eval",
+  "requested_model": "deepseek-flash",
+  "base_url": "https://api.deepseek.com",
+  "temperature": 0.0,
+  "thinking_mode": "thinking-object",
+  "max_tokens": 4096,
+  "output_format": "frozen text template (not JSON)",
+  "retry_policy": "transport errors only; empty content and malformed template are terminal",
+  "finished_utc": "2026-11-14T07:51:58Z",
+  "calls_ok": 598,
+  "calls_empty_content": 0,
+  "calls_transport_error": 0
+}

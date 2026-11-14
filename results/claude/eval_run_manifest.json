@@ -1,0 +1,15 @@
+{
+  "provider": "Anthropic",
+  "requested_model": "claude-sonnet-5-5",
+  "temperature": "provider_default",
+  "thinking": {
+    "type": "between_tools"
+  },
+  "effort": "high",
+  "max_tokens": 4096,
+  "python": "3.13.18",
+  "set": "eval",
+  "prompt_sha256": "22e5dbb8a8ac358284c6b0351b55ed5b3bffad9d5afb13e6052dfe061ae434cc",
+  "driver": "par_claude.py (4 concurrent workers, same request and finalise)",
+  "started_utc": "2026-11-14T07:40:29Z"
+}

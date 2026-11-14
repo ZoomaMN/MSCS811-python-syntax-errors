@@ -1,0 +1,34 @@
+You will be shown one Python source snippet that does not parse. Report where the syntax
+error is, name its kind, and return a corrected version of the whole snippet.
+
+SNIPPET_BEGIN
+{code}
+SNIPPET_END
+
+Answer in exactly this format, with nothing before or after it:
+
+ERROR_LINE: <integer>
+ERROR_FAMILY: <label>
+REPAIRED_CODE_BEGIN
+<the complete corrected snippet>
+REPAIRED_CODE_END
+
+ERROR_FAMILY must be exactly one of these seven labels:
+
+MISSING_COLON
+MISSING_COMMA
+MISSING_CLOSER
+QUOTATION
+BRACKET_MISMATCH
+KEYWORD_AS_IDENTIFIER
+PRINT_STATEMENT
+
+ERROR_LINE is the 1-based line number, counted from the first line of the snippet, at
+which Python reports the syntax error.
+
+Rules for the repair:
+- Return the whole snippet, corrected. Not a diff, not a fragment.
+- Change as little as possible: fix the syntax error and leave everything else untouched.
+- Preserve the snippet's original intent and behaviour.
+- The corrected snippet must parse as Python 3.
+- Do not add comments, explanations, or markdown fences.

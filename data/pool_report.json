@@ -1,0 +1,12 @@
+{
+  "eligible_total": 2285,
+  "eligible_BRACKET_MISMATCH": 53,
+  "eligible_MISSING_CLOSER": 403,
+  "eligible_MISSING_COLON": 68,
+  "eligible_MISSING_COMMA": 80,
+  "eligible_PRINT_STATEMENT": 201,
+  "eligible_QUOTATION": 1480,
+  "excluded_keyword_family": 911,
+  "excluded_previously_used": 384,
+  "not_verified": 2747
+}
